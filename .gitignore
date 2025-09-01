@@ -1,0 +1,92 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Production builds
+build/
+dist/
+out/
+target/
+*.jar
+*.war
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# Temporary folders
+tmp/
+temp/
+
+# Generated files
+ops-aws-bright-storm/build/
+ops-aws-bright-storm/dist/
+ops-aws-bright-storm/target/
+ops-aws-bright-storm/.env*
+ops-aws-bright-storm/node_modules/
+backend-java-gentle-ocean/build/
+backend-java-gentle-ocean/dist/
+backend-java-gentle-ocean/target/
+backend-java-gentle-ocean/.env*
+backend-java-gentle-ocean/node_modules/
+frontend-react-gentle-sunset/build/
+frontend-react-gentle-sunset/dist/
+frontend-react-gentle-sunset/target/
+frontend-react-gentle-sunset/.env*
+frontend-react-gentle-sunset/node_modules/
+docs-readme-wise-ocean/build/
+docs-readme-wise-ocean/dist/
+docs-readme-wise-ocean/target/
+docs-readme-wise-ocean/.env*
+docs-readme-wise-ocean/node_modules/
+
+# Cloud and deployment
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
